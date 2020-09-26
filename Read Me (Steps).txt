@@ -1,0 +1,7 @@
+01.  Copy all unzipped project files in a folder and open project in pycharm.
+02.  Run command in pycharm : pip install -r requirements.txt
+03.  There will be an error for object detection. Fix this by replacing "object-detection==0.1" in requirements.txt with "object-detection-0.1".
+04.  Install the requirements again.(could have made the change and then done installation in a single step)
+05.  In "utils\alertcheck.py", give your path to 'alert.wav' file in the code for playsound.
+06.  Run "hand_detection.py". (make sure camera turn-on is not being prevented by antivirus)
+(optional)  In ubuntu we might need to install 'pygobject' and 'pycairo' as well.
